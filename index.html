@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DistriShulk</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>HOLA MUNDO</h1>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-navbar">
+                  <img src="img/logo/logo.jpeg" alt="logo" class="logo">
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Busca tus productos">
+                </div>
+                <div class="menu-navbar">
+                  <div>Mi cuenta</div>
+                  <div>Productos</div>
+                  <div>Lista de Pedidos</div>
+                  <div>PQRS</div>
+                  <div>Cerrar Sesión</div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <div class="hero-image">
+                <img src="img/home/pollo-partes.png" alt="Producto destacado" class="producto-destacado-img">
+            </div>
+            <div class="hero-text">
+                <h1>Todo lo que necesites para tu hogar</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnum.</p>
+                <button class="hero-button">Productos</button>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>CATEGORIAS</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="img/home/pollo-entero.jpeg" alt="Pollos entero">
+                    <button>POLLOS ENTERO</button>
+                </div>
+                <div class="category-item">
+                    <img src="img/home/pechuga.jpeg" alt="Cortes de pechuga">
+                    <button>CORTES DE PECHUGA</button>
+                </div>
+                <div class="category-item">
+                    <img src="img/home/pernil.jpeg" alt="Perniles">
+                    <button>PERNILES</button>
+                </div>
+                <div class="category-item">
+                    <img src="img/home/pollos-partes-1.jpeg" alt="Recortes">
+                    <button>RECORTES</button>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
